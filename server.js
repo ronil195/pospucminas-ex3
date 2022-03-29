@@ -259,8 +259,8 @@ app.post('/seguranca/login', (req, res) => {
 
 
 
-//let porta = process.env.PORT || 3001;
-let porta = 3000;
+let porta = process.env.PORT || 3000;
+//let porta = 3000;
 
 app.listen(porta, () => {
     console.log("Servidor no ar");
